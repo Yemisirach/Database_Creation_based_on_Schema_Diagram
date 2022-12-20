@@ -35,7 +35,7 @@ CREATE TABLE invoices (
 	payed_at TIMESTAMP,
 	medical_histories_id int UNIQUE REFERENCES medical_histories (id),
 	primary key (id)
-)
+);
 
 CREATE TABLE invoice_items (
 	id int GENERATED ALWAYS AS IDENTITY,
@@ -45,4 +45,4 @@ CREATE TABLE invoice_items (
 	invoice_id int REFERENCES invoices (id),
 	treatment_id int REFERENCES treatments (id),
 	PRIMARY KEY (id)
-)
+);
