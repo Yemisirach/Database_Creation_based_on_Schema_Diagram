@@ -57,12 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [curriculum-databases-projects-template] <a name="about-project"></a>
+# 📖 [Database Creation based on Schema Diagram] <a name="about-project"></a>
 
-> Curriculum-databases-projects-template is a project showing data of animals in a vet-clinic. Different queries can be made using SQL commands. In this branch more new tables,data are added.Queries are made utilising JOIN. Many to many relationships are established. Different queries are made utilising different types of JOIN.
-Indexing is done in this branch.
+> Database Creation based on Schema Diagram is a project where a database has been created from the given schema Diagram.
 
-**[curriculum-databases-projects-template]** is a is a project showing data of animals in a vet-clinic. Different queries can be made using SQL commands.
+**[curriculum-databases-projects-template]** is a is a project showing schema diagram for a clinic. The database has to be created making SQLcommands.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -97,15 +96,14 @@ Indexing is done in this branch.
 
 > Describe between 1-3 key features of the application.
 
-[Creation of Table with data]
+[Schema Diagram]
 
-[Query made in the Table]
+[Creation of Database]
 
-[Indexing to upgrade the execution time]
 
-- **[Creation of Table with data]**
-- **[Query made in the Table]**
-- **[Indexing to upgrade the execution time]**
+- **[Idea about the Schema Diagram]**
+- **[How to understand different Tales with their key features]**
+- **[Execution of SQL commands to construct the required Database]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,12 +121,7 @@ Indexing is done in this branch.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> This repository includes 3 files with plain SQL that can be used to recreate a database:
-
-- schema.sql which creates all tables.
-- data.sql to populate tables with sample data.
-- queries.sql for examples of queries that can be run on a newly created  
-  database using JOIN. 
+> This repository includes 1 file named schema_based_on_diagram.sql with SQL commands which will be used to create the required database.
 
 ### Prerequisites
 
@@ -235,9 +228,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Addition of new column]**
-- [ ] **[Addition of More data]**
-- [ ] **[Indexing]**
+- [ ] **[SQL commands]**
+- [ ] **[Creation of Database from Schema diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -277,13 +269,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[How a table can be created ?]**
+- **[What is Schema Diagram ?]**
 
-  - [With CREATE TABLE TABLENAME command]
+  - [It is a pictorial representation of Database.]
 
-- **[How all data canbe fetched from a table?]**
+- **[How the database can be created from the Schema Diagram?]**
 
-  - [With SELECT * FROM TABLE TABLENAME command.]
+  - [With the help of SQL commands.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
